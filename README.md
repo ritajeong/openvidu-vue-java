@@ -1,13 +1,7 @@
-[![License badge](https://img.shields.io/badge/license-Apache2-orange.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Documentation Status](https://readthedocs.org/projects/openviduio-docs/badge/?version=stable)](https://docs.openvidu.io/en/stable/?badge=stable)
-[![Docker badge](https://img.shields.io/docker/pulls/openvidu/openvidu-server-kms.svg)](https://hub.docker.com/r/openvidu/openvidu-server-kms)
-[![Support badge](https://img.shields.io/badge/support-sof-yellowgreen.svg)](https://openvidu.discourse.group/)
-
-[![][OpenViduLogo]](http://openvidu.io)
-
-openvidu-js-java
-===
-
-Visit [docs.openvidu.io/en/stable/tutorials/openvidu-js-java/](http://docs.openvidu.io/en/stable/tutorials/openvidu-js-java/)
-
-[OpenViduLogo]: https://secure.gravatar.com/avatar/5daba1d43042f2e4e85849733c8e5702?s=120
+frontend폴더에서 npm install하고 실행시키시면 됩니다.  
+<br>
+openvidu-js-java 튜토리얼에 openvidu-insecure-vue 튜토리얼을 붙였습니다.  
+https://docs.openvidu.io/en/2.19.0/tutorials/openvidu-js-java/  
+https://docs.openvidu.io/en/2.19.0/tutorials/openvidu-insecure-vue/  
+vue 프로젝트에서 build한 결과물을 src/main/resources/static으로 옮겼고,  
+vue에서 npm run build하면 src/main/resources/static에 빌드되도록 해놨습니다.  
